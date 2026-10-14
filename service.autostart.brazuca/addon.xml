@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.autostart.brazuca" name="Kodi Autostart" version="1.0.0" provider-name="local">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Opens a configured add-on when Kodi starts</summary>
+        <description lang="en_GB">Opens the configured add-on after a short wait when Kodi starts.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
